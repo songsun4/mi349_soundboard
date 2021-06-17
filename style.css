@@ -1,0 +1,30 @@
+html {
+    background: #ffcaca;
+}
+
+
+button {
+    padding: 50px 100px;
+    margin: 30px;
+    border: 3px solid #d61e1e;
+}
+#chime {
+    background-color:rgb(165, 198, 241);
+}
+#cymbals {
+    background-color: gold;
+}
+#trumpet {
+    background-color: hotpink;
+}
+
+div {
+    margin: 0 auto;
+    margin-top: 125px;
+    width: 240px;
+}
+
+div button:hover {
+    opacity: 0.50;
+    transition: opacity ease-in-out 0.2s;
+}
